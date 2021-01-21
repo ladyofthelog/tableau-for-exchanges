@@ -99,10 +99,10 @@ For multifandom exchanges, I recommend setting Relationship/Character filters to
 
 This dashboard pulls entirely from your Assignments sheet to help you get a big picture view of outstanding assignments. I use a calculated field to check whether or not an assignment is overdue:
 
-`IF MIN(TODAY(), [Due Date]) = [Due Date] THEN TRUE
+```IF MIN(TODAY(), [Due Date]) = [Due Date] THEN TRUE
 
 ELSE FALSE
 
-END
-`
+END```
+
 # Happy Matching!
