@@ -2,7 +2,7 @@
 
 Ever wish it were easier to hand-match [AO3](https://archiveofourown.org/) exchange participants or track due dates, extensions, and pinch hits? You can use Tableau!
 
-**This guide discusses how to shape exchange data for Tableau and includes a cleaned single-fandom dummy data set you can play with.** You can view, interact with, and download a [sample Tableau workbook using this data set hosted on Tableau Public](link). I include screenshots of this workbook below.
+**This guide discusses how to shape exchange data for Tableau and includes a cleaned single-fandom dummy data set you can play with.** You can view, interact with, and download a [sample Tableau workbook using this data set hosted on Tableau Public](https://public.tableau.com/profile/ladyofthelog#!/vizhome/AO3ExchangeMatchingandAssignmentTracking/Overview). I include screenshots of this workbook below.
 
 This guide does not cover the operational aspects of exchange moderation or how to split, pivot, and otherwise manipulate data. I generally use Tableau Prep to shape data I'm analyzing in Tableau, but you can use Python, R, and many other tools.
 
@@ -85,7 +85,7 @@ Status. Current state of assignment. Possible values: *Open / Open - Extension /
 
 ## Matching Dashboard
 
-Now that your data is clean and shaped, you can plug it into Tableau and play. [View the sample matching dashboard on Tableau Public.]()
+Now that your data is clean and shaped, you can plug it into Tableau and play. [View the sample matching dashboard on Tableau Public.](https://public.tableau.com/profile/ladyofthelog#!/vizhome/AO3ExchangeMatchingandAssignmentTracking/Matching)
 
 ![Screenshot of Matching Dashboard using dummy data](/image1.png)
 
@@ -93,7 +93,7 @@ For multifandom exchanges, I recommend setting Relationship/Character filters to
 
 ## Assignment Tracking Dashboard
 
-[View the sample assignment tracking dashboard on Tableau Public.]()
+[View the sample assignment tracking dashboard on Tableau Public.](https://public.tableau.com/profile/ladyofthelog#!/vizhome/AO3ExchangeMatchingandAssignmentTracking/AssignmentTracking)
 
 ![Screenshot of Assignment Tracking Dashboard using dummy data](/image2.png)
 
@@ -105,3 +105,4 @@ ELSE FALSE
 
 END
 `
+# Happy Matching!
